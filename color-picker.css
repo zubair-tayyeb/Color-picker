@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f9f9f9;
+    color: #333;
+
+}
+.header {
+    display: flex;
+    width:1740px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #6200ea;
+    color: white;
+}
+
+.title{
+    font-size: 1.5rem;
+}
+
+#color-picker {
+    padding: 5px;
+    border: 1px solid #dddd;
+    cursor: pointer;
+}
+
+.content {
+    padding: 20px;
+    font-size: 1 rem;
+}
+h2,p {
+    margin: 10px 0;
+}
