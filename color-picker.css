@@ -3,14 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+
+body{
     background-color: #f9f9f9;
     color: #333;
 
 }
-.header {
+
+.header{
     display: flex;
-    width:1740px;
+    max-width:1750px;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -22,16 +24,17 @@ body {
     font-size: 1.5rem;
 }
 
-#color-picker {
+#color-picker{
     padding: 5px;
     border: 1px solid #dddd;
     cursor: pointer;
 }
 
-.content {
+.content{
     padding: 20px;
     font-size: 1 rem;
 }
-h2,p {
+
+h2,p{
     margin: 10px 0;
 }
